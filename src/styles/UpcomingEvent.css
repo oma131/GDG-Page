@@ -1,0 +1,115 @@
+#upcoming-event {
+    background-color: #ffffff;
+}
+.eventContainer {
+    /* background-color: crimson; */
+    width: 1284.28px;
+    height: 1002.63px;
+    padding-top: 112px;
+    left: 222px;
+    gap: 112px;
+    margin: auto;
+
+}
+.arrWrap {
+    /* background-color: purple; */
+    position: absolute;
+    width: 90%;
+}
+.arrow2 {
+    width: 254px;
+    height: 143.63px;
+    margin: auto;
+    /* background-color: grey; */
+    /* position: relative; */
+}
+.eventHead {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: center;
+    /* background-color: yellowgreen; */
+    padding-top: 120px;
+    /* position: fixed; */
+}
+.eventWrapper {
+    /* background-color: red; */
+    margin-top: 112px;
+}
+.eventTextWrap {
+    width: 676px;
+    height: 581px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+}
+.eventDate {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.eventTitle {
+    width: 618px;
+    height: 118px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.eventText {
+    width: 654px;
+    height: 271px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.eventImgWrap {
+    /* background-color: blueviolet; */
+    width: 522.28px;
+    height: 707px;
+
+
+}
+/* .wtmWrapper {
+    background-color: blue;
+    width: 486.79px;
+    height: 470px;
+    top: 129px;
+    left: 770.61px
+
+} */
+.wtmImg {
+    /* background-color: orange; */
+    width: 486.79px;
+    height: 470px;
+    top: 129px;
+    left: 770.61px;
+
+}
+/* .cloudWrap {
+    background-color: palevioletred;
+} */
+.cloud {
+    width: 175.7px;
+    height: 85px;
+    margin-left: 337.96px;
+    /* position: relative; */
+}
+.eventHeadWrap {
+    /* background-color: red; */
+    width: 100%;
+    margin: auto;
+}
+

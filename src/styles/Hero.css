@@ -1,0 +1,312 @@
+.heroContainer {
+    /* background-color: red; */
+    
+    margin: auto;
+    max-width: 1400px;  /* Set a maximum width for larger screens */
+    height: 556px;
+    /* top: 141px; */
+    /* left: 416px; */
+
+}
+.heroWrapper {
+    /* background-color: blue; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgHero {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    /* top: 809px; */
+    /* left: 246px; */
+    border-radius: 64px;
+    margin-top: 112px;
+    /* background-color: gold; */
+}
+.arrowWrap {
+    width: 1000px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    /* z-index: -1; */
+}
+.arrow1 {
+    width: 305px;
+    height: 166px;
+    margin-right: 100px;
+    /* top: 141px;
+    left: 770px; */
+    /* background-color: aqua; */
+    /* position: absolute; */
+}
+.heroHeader {
+    width: 898px;
+    height: 172px;
+    margin-top: 140px;
+    /* background-color: palevioletred; */
+}
+.mainText {
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 86px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.heroSub {
+    width: 714px;
+    height: 117px;
+    margin-top: 32px;
+    /* background-color: green; */
+}
+.subText {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.heroButtons {
+    /* background-color: red; */
+    display: flex;
+    width: 431.78px;
+    margin-top: 32px;
+    gap: 24px
+
+}
+.kiteImg {
+    width: 186px;
+    height: 126px;
+}
+.kiteText {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: yellow; */
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 86px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.community {
+    margin-left: 30px;
+    /* background-color: pink; */
+}
+
+
+/* partners sections */
+#sponsorApp {
+    background-color: #ffffff;
+    margin-top: 700px;
+    padding: 8rem 2rem;
+    
+}
+.sponsTextWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.sponsorText {
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.sponsB {
+    font-weight: 900;
+}
+
+.sponsImgWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 96px;
+    top: 1896px;
+    left: 222px;
+    margin: auto;
+    /* background-color: purple; */
+}
+.sponsImgContainer {
+    /* background-color: red; */
+    margin-top: 52px;
+}
+.sponsImg {
+    /* background-color: green; */
+    width: 15%;
+
+}
+
+
+
+
+#community {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 510px; */
+}
+.communityContainer {
+    background: url('../assets/community.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #FFFFFF;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+.communityWrapper {
+    /* background-color: blue; */
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}
+.communityHeader {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.communityText {
+    /* background-color: aqua; */
+    width: 654px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 100%;
+    margin: auto;
+
+}
+.communityButton {
+    margin-top: 2rem;
+    /* background-color: orangered; */
+}
+
+
+
+@media screen and (min-width: 1150px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+    .eventVector {
+        display: none;
+    }
+    .cloud {
+        display: none;
+    }
+    .heroContainer {
+        /* background-color: green; */
+        padding-top: 40px;
+        width: 100%;  /* Full width on smaller screens */
+        max-width: none;  /* Remove max-width on smaller screens */
+        height: auto;  /* Adjust height for smaller screens or remove it based on your design */
+ /* Adjust margin-top for smaller screens or remove it based on your design */
+    }
+    main {
+        /* background-color: orange; */
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    .imgHero {
+    width: 100%;  /* Make the image full width on smaller screens */
+    height: auto;  /* Adjust height for smaller screens or remove it based on your design */
+    border-radius: 0;  /* Remove border-radius on smaller screens or adjust as needed */
+    margin-top: 50px;  /* Adjust margin-top for smaller screens or remove it based on your design */
+    }
+
+    .heroHeader {
+    margin-top: 16px;  /* Adjust margin-top for smaller screens or remove it based on your design */
+    }
+
+    .mainText {
+    font-size: 48px;  /* Adjust font-size for smaller screens or remove it based on your design */
+    line-height: 50px;  /* Adjust line-height for smaller screens or remove it based on your design */
+    }
+
+    .subText {
+    font-size: 18px;  /* Adjust font-size for smaller screens or remove it based on your design */
+    line-height: 30px;  /* Adjust line-height for smaller screens or remove it based on your design */
+    margin-top: 16px;  /* Adjust margin-top for smaller screens or remove it based on your design */
+    }
+
+    .heroButtons {
+    width: 100%;  /* Make buttons full width on smaller screens */
+    justify-content: center;  /* Center buttons on smaller screens */
+    margin-top: 16px;  /* Adjust margin-top for smaller screens or remove it based on your design */
+    }
+
+    .kiteText {
+    font-size: 48px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;  /* Adjust font-size for smaller screens or remove it based on your design */
+    }
+/* 
+    .community {
+        background-color: red;
+
+    } */
+    .arrow1 {
+        display: none;
+    }
+    .kiteImg {
+        display: none;
+
+    }
+    .heroSub {
+        width: 100%;
+        height: 117px;
+        margin-top: 32px;
+        /* background-color: green; */
+    }
+
+    .sponsorText {
+        /* background-color: red; */
+        font-size: 1.5rem;  /* Adjust font-size for smaller screens */
+    }
+
+    .sponsImgWrapper {
+        /* background-color: blue; */
+        width: 100%;  /* Make wrapper full width on smaller screens */
+    }
+    #sponsorApp {
+        background-color: #ffffff;
+        margin-top: 0px;
+        padding: 2rem 2rem;
+        
+    }
+    .sponsImgContainer {
+        /* background-color: green; */
+        margin-top: 20px;
+    }
+    .communityHeader {
+        font-size: 1.5rem;
+    }
+    .communityText {
+        font-size: 1rem;
+    }
+    
+    .communityButton {
+        margin-top: 1rem;
+        /* background-color: orangered; */
+    }
+
+    
+    
+
+}
+@media screen and (max-width: 300px) {
+
+}
