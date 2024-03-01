@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
 // import NavBar from './Navbar/NavBar';
 import NavbarHook from './NavbarHook/NavbarHook';
 import Hero from './components/Hero'
